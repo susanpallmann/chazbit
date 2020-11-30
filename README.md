@@ -4,4 +4,4 @@ In collaboration with Charles Griffin, this is a respository to build out the st
 ## Contents
 
 ## Notes for Dynamic Transition
-* Images are currently stored at **location**. If the coming has a library manager for media, the locations for these images will need changed.
+* Images are currently stored at **location**. If the coming CMS has a library manager for media, the locations for these images will need changed.
