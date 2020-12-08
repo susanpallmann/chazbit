@@ -69,6 +69,9 @@
   .column.span12.sm {
     width: 100%;
   }
+  .span5-custom.sm {
+    width: 20%;
+  }
 }
 /* Mobile Horizontal & Tablets */
 @media only screen and (min-width: 601px) {
@@ -111,6 +114,9 @@
   .column.span12.md {
     width: 100%;
   }
+  .span5-custom.md {
+    width: 20%;
+  }
 }
 /* Major Breakpoint || Desktop & Up */
 @media only screen and (min-width: 1200px) {
@@ -151,6 +157,9 @@
   }
   .column.span12 {
     width: 100%;
+  }
+  .span5-custom {
+    width: 20%;
   }
 }
 /* Spacing System */
