@@ -24,10 +24,10 @@ img {
   background-image: url("images/hero.png"), linear-gradient(#EEF0FC, #ffffff);
   box-sizing: border-box;
   background-repeat: no-repeat;
-  padding: 8% 15%;
   background-size: cover;
-  background-position-y: 5%;
-  background-position-x: 0%;
+  padding: 8% 25%;
+  background-position-y: 30%;
+  background-position-x: 50%;
 }
 
 .home #hero h1 {
