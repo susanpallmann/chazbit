@@ -95,3 +95,23 @@ body {
 .cards-block .column:nth-child(5n+5) i, .cards-block .column:nth-child(5n+5) .button-underline  {
   color: #FF9900;
 }
+
+.cards-block .column:nth-child(5n+1) .button-underline {
+  background-color: #9000FF;
+}
+
+.cards-block .column:nth-child(5n+2) .button-underline  {
+  background-color: #EE00FF;
+}
+
+.cards-block .column:nth-child(5n+3) .button-underline  {
+  background-color: #FF0077;
+}
+
+.cards-block .column:nth-child(5n+4) .button-underline  {
+  background-color: #FF5E00;
+}
+
+.cards-block .column:nth-child(5n+5) .button-underline  {
+  background-color: #FF9900;
+}
