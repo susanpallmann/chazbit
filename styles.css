@@ -17,8 +17,7 @@ body {
 
 .cards-block .card {
   box-sizing: border-box;
-  margin: 2em 1em;
-  padding: 1em;
+  padding: 2em 1em;
   border-radius: 18px;
   background-color: #fff;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
