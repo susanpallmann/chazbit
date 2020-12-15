@@ -40,6 +40,7 @@ body {
   width: 0;
   height: 3px;
   background-color: #43475B;
+  transition: all 0.2s;
 }
 
 .cards-block .card:hover .button-underline:after,
