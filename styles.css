@@ -96,22 +96,22 @@ body {
   color: #FF9900;
 }
 
-.cards-block .column:nth-child(5n+1) .button-underline {
+.cards-block .column:nth-child(5n+1) .button-underline:after {
   background-color: #9000FF;
 }
 
-.cards-block .column:nth-child(5n+2) .button-underline  {
+.cards-block .column:nth-child(5n+2) .button-underline:after  {
   background-color: #EE00FF;
 }
 
-.cards-block .column:nth-child(5n+3) .button-underline  {
+.cards-block .column:nth-child(5n+3) .button-underline:after  {
   background-color: #FF0077;
 }
 
-.cards-block .column:nth-child(5n+4) .button-underline  {
+.cards-block .column:nth-child(5n+4) .button-underline:after  {
   background-color: #FF5E00;
 }
 
-.cards-block .column:nth-child(5n+5) .button-underline  {
+.cards-block .column:nth-child(5n+5) .button-underline:after  {
   background-color: #FF9900;
 }
