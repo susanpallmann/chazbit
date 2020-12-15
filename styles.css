@@ -20,9 +20,19 @@ img {
 }
 
 .home #hero {
-  padding: 20% 20%;
   background-image: url('images/hero.png');
   background-sizing: 100%;
+  padding: 10% 35%;
+  background-size: 100%;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.home #hero h1 {
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.36);
+  font-size: 3em;
+  margin-top: 0;
 }
 
 .grey-block {
