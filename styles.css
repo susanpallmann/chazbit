@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 
-.cards-block a .card {
+.cards-block a .card h3, .cards-block a .card p {
   text-decoration: none;
 }
 
