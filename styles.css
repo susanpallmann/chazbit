@@ -5,6 +5,8 @@ body {
 .grey-block {
   background-color: #F6F8FF;
   box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  padding: 0.01px;
 }
 
 .header-centered {
