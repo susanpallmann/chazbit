@@ -15,6 +15,10 @@ body {
   text-align: center;
 }
 
+.cards-block a .card {
+  text-decoration: none;
+}
+
 .cards-block .card {
   box-sizing: border-box;
   padding: 2em 1em;
