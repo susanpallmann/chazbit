@@ -21,10 +21,12 @@ img {
 
 .home #hero {
   background-image: url('images/hero.png');
-  padding: 10% 35%;
-  background-size: 100%;
   box-sizing: border-box;
   background-repeat: no-repeat;
+  padding: 8% 15%;
+  background-size: cover;
+  background-position-y: 5%;
+  background-position-x: 0%;
 }
 
 .home #hero h1 {
