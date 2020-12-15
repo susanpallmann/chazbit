@@ -23,6 +23,7 @@ body {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   transition: all 0.2s;
   cursor: pointer;
+  text-align: center;
 }
 
 .cards-block .card:hover,
@@ -30,6 +31,14 @@ body {
 .cards-block .card:focus {
   transform: translateY(-10px);
   box-shadow: 0 16px 28px rgba(0, 0, 0, 0.16);
+}
+
+.cards-block .card .button-underline:after {
+  display: inline-block;
+  content: '';
+  width: 0;
+  height: 3px;
+  background-color: #43475B;
 }
 
 .cards-block .card:hover .button-underline:after,
@@ -40,6 +49,10 @@ body {
   width: 100%;
   height: 3px;
   background-color: #43475B;
+}
+
+.cards-block .card p {
+  text-align: left;
 }
 
 .card i {
@@ -55,7 +68,6 @@ body {
 
 .card .button-underline {
   text-align: center;
-  width: 100%;
   display: inline-block;
   font-weight: 800;
   text-transform: capitalize;
