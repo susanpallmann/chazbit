@@ -642,6 +642,7 @@ footer ul.social-list li i {
 
 .container.copyright p a {
   color: #fff;
+  text-decoration: underline;
 }
 
 .container.copyright p a:hover,
