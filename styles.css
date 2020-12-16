@@ -298,6 +298,10 @@ footer ul li {
   letter-spacing: 0.1em;
 }
 
+footer ul a {
+  text-decoration: none;
+}
+
 footer ul a li {
   color: rgba(255, 255, 255, 0.75);
   transition: all 0.2s;
@@ -339,4 +343,10 @@ footer ul.social-list li i {
 
 .container.copyright p a {
   color: #fff;
+}
+
+.container.copyright p a:hover,
+.container.copyright p a:active,
+.container.copyright p a:focus {
+  text-decoration: underline;
 }
