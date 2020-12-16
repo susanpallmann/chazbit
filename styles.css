@@ -339,9 +339,11 @@ nav.horizontal {
   #hamburger {
     display: none;
   }
+  
   .tray {
-    display: none;
+    display: none !important;
   }
+  
   nav.horizontal {
     display: block;
   }
