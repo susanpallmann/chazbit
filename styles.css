@@ -508,6 +508,52 @@ ul.special-list li::before {
   margin: 0 0.5em;
 }
 
+/* Testimonials */
+
+.test-block {
+  margin: auto;
+  max-width: 700px;
+  position: relative;
+  padding: 1em 4em;
+}
+
+.test-block::before {
+  content: '\f10d';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2em;
+  position: absolute;
+  left: 0.5em;
+  color: #FF0077;
+}
+
+.test-block::after {
+  content: '\f10e';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2em;
+  position: absolute;
+  right: 0.5em;
+  color: #FF0077;
+  top: 0;
+}
+
+.review {
+  font-size: 1.25em;
+}
+
+.review-name {
+  color: #FF0077;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.review-title {
+  margin-top: 0.5em;
+  font-style: italic;
+}
+
 /* Footer Styles */
 
 footer {
