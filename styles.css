@@ -15,8 +15,19 @@ h2 {
     margin-top: 0;
 }
 
+.header-centered {
+  text-align: center;
+}
+
 img {
   width: 100%;
+}
+
+.grey-block {
+  background-color: #F6F8FF;
+  box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  padding: 0.01px;
 }
 
 .button-primary {
@@ -61,6 +72,8 @@ img {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.36);
 }
 
+/* Header Styles */
+
 header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
   background-color: #fff;
@@ -91,6 +104,8 @@ header ul li {
   margin-top: 1em;
 }
 
+/* Hero Header */
+
 .home #hero {
   background-image: url('images/hero.png');
   background-image: url("images/hero.png"), linear-gradient(#EEF0FC, #ffffff);
@@ -110,16 +125,7 @@ header ul li {
   margin-bottom: 0;
 }
 
-.grey-block {
-  background-color: #F6F8FF;
-  box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.16);
-  box-sizing: border-box;
-  padding: 0.01px;
-}
-
-.header-centered {
-  text-align: center;
-}
+/* Cards Section */
 
 .cards-block a {
   text-decoration: none;
@@ -229,6 +235,8 @@ header ul li {
 .cards-block .column:nth-child(5n+5) .button-underline:after  {
   background-color: #FF9900;
 }
+
+/* Footer Styles */
 
 footer {
   background-color: #F07;
