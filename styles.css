@@ -79,6 +79,7 @@ header {
   background-color: #fff;
   position: fixed;
   width: 100%;
+  z-index: 7;
 }
 
 header ul {
