@@ -96,18 +96,26 @@ header ul li {
   font-weight: 700;
   letter-spacing: 0.1em;
   color: #494978;
+  transition: all 0.2s;
+}
+
+header ul a:hover li,
+header ul a:active li,
+header ul a:focus li {
+  color: #FF0077;
 }
 
 header ul li::after {
   height: 2px;
   width: 0px;
-  background-color: #494987;
+  background-color: #FF0077;
   content: "";
   display: inline-block;
   position: absolute;
   left: 0;
   right: 0;
   top: 1.35em;
+  transition: all 0.2s;
 }
 
 header ul a:hover li::after,
@@ -115,7 +123,7 @@ header ul a:active li::after,
 header ul a:focus li::after {
   height: 2px;
   width: 100%;
-  background-color: #494987;
+  background-color: #FF0077;
   content: "";
   display: inline-block;
   position: absolute;
