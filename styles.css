@@ -285,6 +285,46 @@ header ul a:focus li::after {
   top: 17px;
 }
 
+#hamburger[aria-checked="false"] .bar.horiz-bar-1 {
+  width: 40px;
+}
+
+#hamburger[aria-checked="false"] .bar.horiz-bar-2 {
+  width: 40px;
+}
+
+#hamburger[aria-checked="false"] .bar.horiz-bar-3 {
+  width: 40px;
+}
+
+#hamburger[aria-checked="false"] .bar.diag-bar-1 {
+  width: 0;
+}
+
+#hamburger[aria-checked="false"] .bar.diag-bar-2 {
+  width: 0;
+}
+
+#hamburger[aria-checked="true"] .bar.horiz-bar-1 {
+  width: 0;
+}
+
+#hamburger[aria-checked="true"] .bar.horiz-bar-2 {
+  width: 0;
+}
+
+#hamburger[aria-checked="true"] .bar.horiz-bar-3 {
+  width: 0;
+}
+
+#hamburger[aria-checked="true"] .bar.diag-bar-1 {
+  width: 40px;
+}
+
+#hamburger[aria-checked="true"] .bar.diag-bar-2 {
+  width: 40px;
+}
+
 /* Hero Header */
 
 .home #hero {
