@@ -178,9 +178,9 @@ header ul a:focus li::after {
   position: relative;
   background-color: #FF0077;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
-  top: 57px;
+  top: 55px;
   display: inline-block;
-  padding: 1em;
+  padding: 3em 1em;
   height: 100vh;
   width: 100vw;
   color: #fff;
