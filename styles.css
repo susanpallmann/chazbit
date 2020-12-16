@@ -297,7 +297,7 @@ footer ul.social-list li i {
   margin-right: 0.25em;
 }
 
-.copyright {
+.container.copyright {
   background-color: rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: unset;
@@ -306,7 +306,7 @@ footer ul.social-list li i {
   margin-top: 3em;
 }
 
-.copyright p {
+.container.copyright p {
   color: #fff;
   margin: 0.5em 0;
   text-transform: uppercase;
