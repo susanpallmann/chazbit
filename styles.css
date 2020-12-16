@@ -555,11 +555,17 @@ ul.special-list li::before {
   font-style: italic;
 }
 
+.controls {
+  text-align: center;
+}
+
 .dot {
-  height: 10px;
-  width: 10px;
+  height: 15px;
+  width: 15px;
   border-radius: 50px;
   background-color: #E1E1E1;
+  display: inline-block;
+  margin: 0.33em;
 }
 
 .dot-selected {
