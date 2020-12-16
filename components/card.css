@@ -1,0 +1,107 @@
+/* Cards Section */
+
+.card {
+  box-sizing: border-box;
+  padding: 2em 1em;
+  border-radius: 18px;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  transition: all 0.2s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.card:hover,
+.card:active,
+.card:focus {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.16);
+}
+
+.card .button-underline:after {
+  display: block;
+  margin-top: 0.25em;
+  content: '';
+  width: 0;
+  height: 3px;
+  transition: all 0.2s;
+}
+
+.card:hover .button-underline:after,
+.card:active .button-underline:after,
+.card:focus .button-underline:after {
+  display: block;
+  margin-top: 0.25em;
+  content: '';
+  width: 100%;
+  height: 3px;
+}
+
+.card p {
+  text-align: left;
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: #43475B;
+}
+
+.card i {
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+}
+
+.card h3 {
+  text-align: center;
+  color: #43475B;
+  min-height: 2.5em;
+  margin-top: 1em;
+}
+
+.card .button-underline {
+  text-align: center;
+  display: inline-block;
+  font-weight: 800;
+  text-transform: capitalize;
+  font-size: 1.1em;
+  margin-top: 1em;
+}
+
+.column:nth-child(5n+1) .card i, .cards-block .column:nth-child(5n+1) .button-underline {
+  color: #9000FF;
+}
+
+.column:nth-child(5n+2) .card i, .cards-block .column:nth-child(5n+2) .button-underline  {
+  color: #EE00FF;
+}
+
+.column:nth-child(5n+3) .card i, .cards-block .column:nth-child(5n+3) .button-underline  {
+  color: #FF0077;
+}
+
+.column:nth-child(5n+4) .card i, .cards-block .column:nth-child(5n+4) .button-underline  {
+  color: #FF5E00;
+}
+
+.column:nth-child(5n+5) .card i, .cards-block .column:nth-child(5n+5) .button-underline  {
+  color: #FF9900;
+}
+
+.column:nth-child(5n+1) .card .button-underline:after {
+  background-color: #9000FF;
+}
+
+.column:nth-child(5n+2) .card .button-underline:after  {
+  background-color: #EE00FF;
+}
+
+.column:nth-child(5n+3) .card .button-underline:after  {
+  background-color: #FF0077;
+}
+
+.column:nth-child(5n+4) .card .button-underline:after  {
+  background-color: #FF5E00;
+}
+
+.column:nth-child(5n+5) .card .button-underline:after  {
+  background-color: #FF9900;
+}

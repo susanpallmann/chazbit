@@ -1,0 +1,82 @@
+/* Footer Styles */
+
+footer {
+  background-color: #F07;
+  color: #fff;
+  padding: 3em 0 0 0;
+}
+
+#footer-logo img {
+  width: 100px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+footer ul a {
+  text-decoration: none;
+}
+
+footer ul a li {
+  color: rgba(255, 255, 255, 0.75);
+  transition: all 0.2s;
+}
+
+footer ul a:hover li,
+footer ul a:active li,
+footer ul a:focus li {
+  color: rgba(255, 255, 255, 1);
+}
+
+footer ul.contacts li {
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+footer ul.social-list li {
+  display: inline-block;
+}
+
+footer ul.social-list li i {
+  font-size: 1.5em;
+  margin-right: 0.25em;
+}
+
+footer .column.span3 {
+  padding-bottom: 1em;
+}
+
+.container.copyright {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: unset;
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 1.5em;
+}
+
+.container.copyright p {
+  color: #fff;
+  margin: 0.5em 0;
+}
+
+.container.copyright p a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.container.copyright p a:hover,
+.container.copyright p a:active,
+.container.copyright p a:focus {
+  text-decoration: none;
+}
