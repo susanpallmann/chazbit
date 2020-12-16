@@ -236,6 +236,55 @@ header ul a:focus li::after {
   background-color: #fff;
 }
 
+
+/* Hamburger Icon */
+
+#hamburger {
+  position: relative;
+  float: right;
+  height: 40px;
+  width: 40px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.bar {
+  border-radius: 50px;
+  height: 3px;
+  width: 30px;
+  height: 5px;
+  width: 40px;
+  background-color: #ff0077;
+  position: absolute;
+  transition: all 0.2s;
+}
+
+.horiz-bar-1 {
+  top: 4px;
+}
+
+.horiz-bar-3 {
+  bottom: 4px;
+}
+
+.horiz-bar-2 {
+  top: calc(50% - 2.5px);
+}
+
+.bar.diag-bar-1 {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 17px;
+}
+
+.bar.diag-bar-2 {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 17px;
+}
+
 /* Hero Header */
 
 .home #hero {
@@ -255,31 +304,6 @@ header ul a:focus li::after {
   font-size: 3em;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-/* Hamburger Icon */
-
-#hamburger {
-  position: relative;
-}
-
-.bar {
-  height: 3px;
-  width: 30px;
-  border-radius: 50px;
-  background-color: #ff0077;
-}
-
-.horiz-bar-1 {
-  
-}
-
-.horiz-bar-2 {
-  
-}
-
-.horiz-bar-3 {
-  
 }
 
 /* Cards Section */
