@@ -298,6 +298,16 @@ footer ul li {
   letter-spacing: 0.1em;
 }
 
+footer ul a li {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+footer ul a:hover li,
+footer ul a:active li,
+footer ul a:focus li {
+  color: rgba(255, 255, 255, 1);
+}
+
 footer ul.contacts li {
   text-transform: none;
   letter-spacing: 0;
