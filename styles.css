@@ -325,6 +325,10 @@ header ul a:focus li::after {
   width: 40px;
 }
 
+.tray {
+  display: none;
+}
+
 /* Header Media Queries */
 
 nav.horizontal {
