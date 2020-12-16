@@ -336,3 +336,7 @@ footer ul.social-list li i {
   color: #fff;
   margin: 0.5em 0;
 }
+
+.container.copyright p a {
+  color: #fff;
+}
