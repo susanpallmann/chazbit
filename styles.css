@@ -111,12 +111,12 @@ header {
   z-index: 7;
 }
 
-header ul {
+nav.horizontal ul {
   list-style: none;
   float: right;
 }
 
-header ul li {
+nav.horizontal ul li {
   display: inline-block;
   padding: 0.2em 0em;
   position: relative;
