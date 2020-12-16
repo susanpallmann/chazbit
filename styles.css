@@ -562,7 +562,7 @@ ul.special-list li::before {
   background-color: #E1E1E1;
 }
 
-.selected-dot {
+.dot-selected {
   background-color: #FF0077;
 }
 
