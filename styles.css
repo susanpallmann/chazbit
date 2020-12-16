@@ -32,6 +32,19 @@ img {
   display: inline-block;
 }
 
+.button-secondary {
+  padding: 0.5em 0.7em;
+  color: #fff;
+  background-color: #FF0077;
+  font-weight: 800;
+  font-size: 1.2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+  margin-top: 1em;
+  display: inline-block;
+}
+
 .home #hero {
   background-image: url('images/hero.png');
   background-image: url("images/hero.png"), linear-gradient(#EEF0FC, #ffffff);
