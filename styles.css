@@ -37,6 +37,7 @@ img {
 .button-primary:active, 
 .button-primary:focus {
   background-color: #FF0077;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
 }
 
 .button-secondary {
@@ -58,6 +59,7 @@ img {
 .button-secondary:active, 
 .button-secondary:focus {
   background-color: #9000FF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
 }
 
 .home #hero {
