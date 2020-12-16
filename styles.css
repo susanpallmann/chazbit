@@ -99,6 +99,10 @@ header ul li {
   transition: all 0.2s;
 }
 
+header ul li.selected {
+  color: #FF0077;
+}
+
 header ul a:hover li,
 header ul a:active li,
 header ul a:focus li {
