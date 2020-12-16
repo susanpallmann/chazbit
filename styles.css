@@ -267,6 +267,7 @@ header ul a:focus li::after {
   height: 3px;
   width: 30px;
   border-radius: 50px;
+  background-color: #ff0077;
 }
 
 .horiz-bar-1 {
