@@ -54,7 +54,6 @@ img {
   transition: all 0.2s;
 }
 
-
 .button-secondary:hover, 
 .button-secondary:active, 
 .button-secondary:focus {
@@ -77,6 +76,10 @@ header ul {
 header ul li {
   display: inline-block;
   padding: 0.2em 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #494978;
 }
 
 #header-logo {
