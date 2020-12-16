@@ -286,6 +286,9 @@ footer ul {
 
 footer ul li {
   margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
 }
 
 footer ul.social-list li {
@@ -309,7 +312,4 @@ footer ul.social-list li i {
 .container.copyright p {
   color: #fff;
   margin: 0.5em 0;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 0.1em;
 }
