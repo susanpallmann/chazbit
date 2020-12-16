@@ -352,5 +352,5 @@ footer ul.social-list li i {
 .container.copyright p a:hover,
 .container.copyright p a:active,
 .container.copyright p a:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
