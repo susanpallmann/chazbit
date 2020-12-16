@@ -335,7 +335,7 @@ nav.horizontal {
   #hamburger {
     display: none;
   }
-  #tray {
+  .tray {
     display: none;
   }
   nav.horizontal {
