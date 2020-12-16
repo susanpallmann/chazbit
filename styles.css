@@ -291,6 +291,11 @@ footer ul li {
   letter-spacing: 0.1em;
 }
 
+footer ul.contacts li {
+  text-transform: normal;
+  letter-spacing: 0;
+}
+
 footer ul.social-list li {
   display: inline-block;
 }
