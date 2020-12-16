@@ -173,6 +173,7 @@ header ul li {
 .card h3 {
   text-align: center;
   color: #43475B;
+  min-height: 2.5em;
 }
 
 .card .button-underline {
