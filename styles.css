@@ -247,6 +247,7 @@ header ul a:focus li::after {
   width: 40px;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  cursor: pointer;
 }
 
 .bar {
