@@ -174,6 +174,61 @@ header ul a:focus li::after {
   margin-top: 1em;
 }
 
+.tray {
+  position: relative;
+  background-color: #FF0077;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
+  top: 57px;
+  display: inline-block;
+  padding: 1em;
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+}
+
+.vertical ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.vertical ul li {
+  font-size: 1em;
+  position: relative;
+  display: inline-block;
+}
+
+.vertical ul a {
+  display: block;
+}
+
+.vertical ul li {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.vertical ul a {
+  text-align: center;
+  color: #fff;
+}
+
+.vertical ul a:hover li,
+.vertical ul a:focus li,
+.vertical ul a:active li {
+  color: #fff;
+}
+
+.vertical ul a:hover li:after,
+.vertical ul a:focus li:after,
+.vertical ul a:active li:after {
+  background-color: #fff;
+}
+
 /* Hero Header */
 
 .home #hero {
