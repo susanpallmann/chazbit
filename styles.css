@@ -515,16 +515,16 @@ ul.special-list li::before {
   margin: auto;
   max-width: 700px;
   position: relative;
-  padding: 1em 4em;
+  padding: 1em 3em;
 }
 
 .test-block::before {
   content: '\f10d';
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  font-size: 2em;
+  font-size: 2;
   position: absolute;
-  left: 0.5em;
+  left: 0em;
   color: #FF0077;
 }
 
@@ -534,7 +534,7 @@ ul.special-list li::before {
   font-weight: 900;
   font-size: 2em;
   position: absolute;
-  right: 0.5em;
+  right: 0;
   color: #FF0077;
   top: 0;
 }
