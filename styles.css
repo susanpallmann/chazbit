@@ -325,6 +325,24 @@ header ul a:focus li::after {
   width: 40px;
 }
 
+/* Header Media Queries */
+
+nav.horizontal {
+  display: none
+}
+
+@media only screen and (min-width: 750px) {
+  #hamburger {
+    display: none;
+  }
+  #tray {
+    display: none;
+  }
+  nav.horizontal {
+    display: block;
+  }
+}
+
 /* Hero Header */
 
 .home #hero {
