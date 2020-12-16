@@ -89,11 +89,25 @@ header ul {
 
 header ul li {
   display: inline-block;
-  padding: 0.2em 1em;
+  padding: 0.2em 0em;
+  position: relative;
+  margin: 0 1em;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.1em;
   color: #494978;
+}
+
+header ul li::after {
+  height: 2px;
+  width: 100%;
+  background-color: #494987;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 1.35em;
 }
 
 #header-logo {
