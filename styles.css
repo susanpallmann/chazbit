@@ -296,3 +296,19 @@ footer ul.social-list li i {
   font-size: 1.5em;
   margin-right: 0.25em;
 }
+
+.copyright {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: unset;
+  text-align: center;
+}
+
+.copyright p {
+  color: #fff;
+  margin: 0.5em 0;
+}
+
+.copyright {
+  font-size: 0.8em;
+}
