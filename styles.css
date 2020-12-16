@@ -257,6 +257,30 @@ header ul a:focus li::after {
   margin-bottom: 0;
 }
 
+/* Hamburger Icon */
+
+#hamburger {
+  position: relative;
+}
+
+.bar {
+  height: 3px;
+  width: 30px;
+  border-radius: 50px;
+}
+
+.horiz-bar-1 {
+  
+}
+
+.horiz-bar-2 {
+  
+}
+
+.horiz-bar-3 {
+  
+}
+
 /* Cards Section */
 
 a {
