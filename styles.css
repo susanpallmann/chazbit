@@ -30,6 +30,13 @@ img {
   cursor: pointer;
   margin-top: 1em;
   display: inline-block;
+  transition: all 0.2s;
+}
+
+.button-primary:hover, 
+.button-primary:active, 
+.button-primary:focus {
+  background-color: #FF0077;
 }
 
 .button-secondary {
@@ -43,6 +50,14 @@ img {
   cursor: pointer;
   margin-top: 1em;
   display: inline-block;
+  transition: all 0.2s;
+}
+
+
+.button-secondary:hover, 
+.button-secondary:active, 
+.button-secondary:focus {
+  background-color: #9000FF;
 }
 
 .home #hero {
