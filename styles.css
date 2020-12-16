@@ -168,11 +168,11 @@ header ul a:focus li::after {
 
 /* Cards Section */
 
-.cards-block a {
+a {
   text-decoration: none;
 }
 
-.cards-block .card {
+.card {
   box-sizing: border-box;
   padding: 2em 1em;
   border-radius: 18px;
@@ -183,14 +183,14 @@ header ul a:focus li::after {
   text-align: center;
 }
 
-.cards-block .card:hover,
-.cards-block .card:active,
-.cards-block .card:focus {
+.card:hover,
+.card:active,
+.card:focus {
   transform: translateY(-10px);
   box-shadow: 0 16px 28px rgba(0, 0, 0, 0.16);
 }
 
-.cards-block .card .button-underline:after {
+.card .button-underline:after {
   display: block;
   margin-top: 0.25em;
   content: '';
@@ -199,9 +199,9 @@ header ul a:focus li::after {
   transition: all 0.2s;
 }
 
-.cards-block .card:hover .button-underline:after,
-.cards-block .card:active .button-underline:after,
-.cards-block .card:focus .button-underline:after {
+.card:hover .button-underline:after,
+.card:active .button-underline:after,
+.card:focus .button-underline:after {
   display: block;
   margin-top: 0.25em;
   content: '';
@@ -209,7 +209,7 @@ header ul a:focus li::after {
   height: 3px;
 }
 
-.cards-block .card p {
+.card p {
   text-align: left;
   font-size: 0.9em;
   line-height: 1.5;
@@ -237,43 +237,43 @@ header ul a:focus li::after {
   margin-top: 1em;
 }
 
-.cards-block .column:nth-child(5n+1) i, .cards-block .column:nth-child(5n+1) .button-underline {
+.column:nth-child(5n+1) i, .cards-block .column:nth-child(5n+1) .button-underline {
   color: #9000FF;
 }
 
-.cards-block .column:nth-child(5n+2) i, .cards-block .column:nth-child(5n+2) .button-underline  {
+.column:nth-child(5n+2) i, .cards-block .column:nth-child(5n+2) .button-underline  {
   color: #EE00FF;
 }
 
-.cards-block .column:nth-child(5n+3) i, .cards-block .column:nth-child(5n+3) .button-underline  {
+.column:nth-child(5n+3) i, .cards-block .column:nth-child(5n+3) .button-underline  {
   color: #FF0077;
 }
 
-.cards-block .column:nth-child(5n+4) i, .cards-block .column:nth-child(5n+4) .button-underline  {
+.column:nth-child(5n+4) i, .cards-block .column:nth-child(5n+4) .button-underline  {
   color: #FF5E00;
 }
 
-.cards-block .column:nth-child(5n+5) i, .cards-block .column:nth-child(5n+5) .button-underline  {
+.column:nth-child(5n+5) i, .cards-block .column:nth-child(5n+5) .button-underline  {
   color: #FF9900;
 }
 
-.cards-block .column:nth-child(5n+1) .button-underline:after {
+.column:nth-child(5n+1) .button-underline:after {
   background-color: #9000FF;
 }
 
-.cards-block .column:nth-child(5n+2) .button-underline:after  {
+.column:nth-child(5n+2) .button-underline:after  {
   background-color: #EE00FF;
 }
 
-.cards-block .column:nth-child(5n+3) .button-underline:after  {
+.column:nth-child(5n+3) .button-underline:after  {
   background-color: #FF0077;
 }
 
-.cards-block .column:nth-child(5n+4) .button-underline:after  {
+.column:nth-child(5n+4) .button-underline:after  {
   background-color: #FF5E00;
 }
 
-.cards-block .column:nth-child(5n+5) .button-underline:after  {
+.column:nth-child(5n+5) .button-underline:after  {
   background-color: #FF9900;
 }
 
