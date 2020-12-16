@@ -237,43 +237,43 @@ a {
   margin-top: 1em;
 }
 
-.column:nth-child(5n+1) i, .cards-block .column:nth-child(5n+1) .button-underline {
+.column:nth-child(5n+1) .card i, .cards-block .column:nth-child(5n+1) .button-underline {
   color: #9000FF;
 }
 
-.column:nth-child(5n+2) i, .cards-block .column:nth-child(5n+2) .button-underline  {
+.column:nth-child(5n+2) .card i, .cards-block .column:nth-child(5n+2) .button-underline  {
   color: #EE00FF;
 }
 
-.column:nth-child(5n+3) i, .cards-block .column:nth-child(5n+3) .button-underline  {
+.column:nth-child(5n+3) .card i, .cards-block .column:nth-child(5n+3) .button-underline  {
   color: #FF0077;
 }
 
-.column:nth-child(5n+4) i, .cards-block .column:nth-child(5n+4) .button-underline  {
+.column:nth-child(5n+4) .card i, .cards-block .column:nth-child(5n+4) .button-underline  {
   color: #FF5E00;
 }
 
-.column:nth-child(5n+5) i, .cards-block .column:nth-child(5n+5) .button-underline  {
+.column:nth-child(5n+5) .card i, .cards-block .column:nth-child(5n+5) .button-underline  {
   color: #FF9900;
 }
 
-.column:nth-child(5n+1) .button-underline:after {
+.column:nth-child(5n+1) .card .button-underline:after {
   background-color: #9000FF;
 }
 
-.column:nth-child(5n+2) .button-underline:after  {
+.column:nth-child(5n+2) .card .button-underline:after  {
   background-color: #EE00FF;
 }
 
-.column:nth-child(5n+3) .button-underline:after  {
+.column:nth-child(5n+3) .card .button-underline:after  {
   background-color: #FF0077;
 }
 
-.column:nth-child(5n+4) .button-underline:after  {
+.column:nth-child(5n+4) .card .button-underline:after  {
   background-color: #FF5E00;
 }
 
-.column:nth-child(5n+5) .button-underline:after  {
+.column:nth-child(5n+5) .card .button-underline:after  {
   background-color: #FF9900;
 }
 
