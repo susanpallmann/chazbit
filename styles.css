@@ -502,7 +502,7 @@ a {
   height: 0.7em;
   width: 0.7em;
   display: inline-block;
-  content: ';;
+  content: '';
   background-color: #ff0077;
   border-radius: 50px;
   margin: 0 0.5em;
