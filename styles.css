@@ -223,3 +223,9 @@ header ul li {
 .cards-block .column:nth-child(5n+5) .button-underline:after  {
   background-color: #FF9900;
 }
+
+footer {
+  background-color: #F07;
+  color: #fff;
+  padding: 3em 0 0 0;
+}
