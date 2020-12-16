@@ -300,7 +300,7 @@ footer ul li {
 }
 
 footer ul.contacts li {
-  text-transform: normal;
+  text-transform: none;
   letter-spacing: 0;
 }
 
