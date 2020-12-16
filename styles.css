@@ -223,6 +223,12 @@ header ul a:focus li::after {
   color: #fff;
 }
 
+.vertical ul a li:after,
+.vertical ul a li:after,
+.vertical ul a li:after {
+  background-color: #fff;
+}
+
 .vertical ul a:hover li:after,
 .vertical ul a:focus li:after,
 .vertical ul a:active li:after {
