@@ -86,6 +86,11 @@ header ul li {
   float: left;
 }
 
+#header-logo img {
+  width: 100px;
+  margin-top: 1em;
+}
+
 .home #hero {
   background-image: url('images/hero.png');
   background-image: url("images/hero.png"), linear-gradient(#EEF0FC, #ffffff);
