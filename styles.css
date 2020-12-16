@@ -100,6 +100,20 @@ header ul li {
 
 header ul li::after {
   height: 2px;
+  width: 0px;
+  background-color: #494987;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 1.35em;
+}
+
+header ul a:hover li::after,
+header ul a:active li::after,
+header ul a:focus li::after {
+  height: 2px;
   width: 100%;
   background-color: #494987;
   content: "";
