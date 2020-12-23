@@ -785,6 +785,7 @@ a .portfolio-entry:active {
   font-size: 1em;
   white-space: nowrap;
   display: inline-block;
+  margin-top: 1em;
 }
 
 #filter-controls:hover,
