@@ -763,6 +763,7 @@ a .portfolio-entry:active {
   cursor: pointer;
   opacity: 0.9;
   transition: all 0.2s;
+  box-sizing: border-box;
 }
 
 .filter:hover,
@@ -782,6 +783,8 @@ a .portfolio-entry:active {
   transition: all 0.2s;
   font-family: "Raleway", sans-serif;
   font-size: 1em;
+  white-space: nowrap;
+  display: inline-block;
 }
 
 #filter-controls:hover,
