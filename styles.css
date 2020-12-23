@@ -687,3 +687,19 @@ footer .column.span3 {
 .tag-web-dev {
   background-color: #9000ff;
 }
+
+.blog-entry {
+  box-sizing: border-box;
+  padding: 1em 1em;
+  border-radius: 18px;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+a .blog-entry:hover, 
+a .blog-entry:focus, 
+a .blog-entry:active {
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.16);
+}
