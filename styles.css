@@ -718,6 +718,7 @@ a .blog-entry:active {
 .blog-higher {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .blog-entry h2 {
@@ -741,7 +742,7 @@ a .blog-entry:active {
 
 @media only screen and (min-width: 850px) {
   .blog-entry .image-container {
-    max-width: 300px;
+    max-width: 250px;
     width: 100%;
     margin-right: 1em;
     margin-bottom: 0;
