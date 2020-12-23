@@ -33,6 +33,10 @@ img {
   width: 100%;
 }
 
+img.circle {
+  border-radius: 500px;
+}
+
 .technologies {
   position: relative;
   padding-bottom: 4em;
