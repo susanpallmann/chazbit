@@ -686,6 +686,8 @@ footer .column.span3 {
   padding: 0.3em 1em;
   margin-top: 1em;
   display: inline-block;
+  min-width: 80px;
+  text-align: center;
 }
 
 .tag-web-dev {
@@ -724,4 +726,28 @@ a .blog-entry:active {
 
 .blog-entry p {
   margin-bottom: 0;
+}
+
+.blog-entry .image-container {
+  max-width: 100%;
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 1em;
+}
+
+.blog-entry {
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 850px) {
+  .blog-entry .image-container {
+    max-width: 300px;
+    width: 100%;
+    margin-right: 1em;
+    margin-bottom: 0;
+  }
+  
+  .blog-entry {
+    flex-wrap: nowrap;
+  }
 }
