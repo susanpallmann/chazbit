@@ -743,6 +743,14 @@ a .portfolio-entry:active {
   flex-wrap: wrap;
 }
 
+
+#filter-container {
+  float: right;
+  margin-bottom: 1em;
+  width: 100%;
+  text-align: right;
+}
+
 .filter {
   background-color: #ddd;
   border-radius: 50px;
