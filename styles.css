@@ -674,3 +674,17 @@ footer .column.span3 {
   color: #FF0099;
   font-size: 3em;
 }
+
+.tag {
+  background-color: #ddd;
+  border-radius: 50px;
+  color: #fff;
+  font-wight: ;
+  font-weight: 600;
+  padding: 0.3em 1em;
+}
+
+.tag-web-dev {
+  background-color: "";
+  background-color: #9000ff;
+}
