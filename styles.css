@@ -762,6 +762,7 @@ a .portfolio-entry:active {
   padding: calc(0.3em + 2px) 1em;
   cursor: pointer;
   opacity: 0.9;
+  transition: all 0.2s;
 }
 
 .filter:hover,
@@ -778,6 +779,7 @@ a .portfolio-entry:active {
   font-weight: 600;
   box-sizing: border-box;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 #filter-controls:hover,
