@@ -9,6 +9,11 @@ p {
   color: #43475B;
 }
 
+h1 {
+  font-size: 3em;
+  color: #494978;
+}
+
 h2 {
     color: #494978;
     font-size: 2.8em;
