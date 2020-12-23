@@ -696,8 +696,24 @@ footer .column.span3 {
   text-align: center;
 }
 
-.tag-web-dev {
+.tag-web-dev, .filter-web-dev {
   background-color: #9000ff;
+}
+
+.tag-mobile, .filter-mobile {
+  background-color: #EE00FF;
+}
+
+.tag-services, .filter-services {
+  background-color: #FF0077;
+}
+
+.tag-consulting, .filter-consulting {
+  background-color: #FF5E00;
+}
+
+.tag-data, .filter-data {
+  background-color: #FF9900;
 }
 
 .portfolio-entry {
@@ -725,6 +741,29 @@ a .portfolio-entry:active {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.filter {
+  background-color: #ddd;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 1em;
+  display: inline-block;
+  min-width: 80px;
+  text-align: center;
+  padding: calc(0.3em + 2px) 1em;
+  cursor: pointer;
+}
+
+#filter-controls {
+  padding: 0.3em 1em;
+  border: 2px solid #494978;
+  border-radius: 50px;
+  color: #494978;
+  font-weight: 600;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
 .portfolio-entry h2 {
