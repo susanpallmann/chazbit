@@ -743,7 +743,6 @@ a .portfolio-entry:active {
   flex-wrap: wrap;
 }
 
-
 #filter-container {
   float: right;
   margin-bottom: 1em;
@@ -762,6 +761,13 @@ a .portfolio-entry:active {
   text-align: center;
   padding: calc(0.3em + 2px) 1em;
   cursor: pointer;
+  opacity: 0.9;
+}
+
+.filter:hover,
+.filter:focus,
+.filter:active {
+  opacity: 1;
 }
 
 #filter-controls {
@@ -772,6 +778,12 @@ a .portfolio-entry:active {
   font-weight: 600;
   box-sizing: border-box;
   cursor: pointer;
+}
+
+#filter-controls {
+  border: 2px solid #494978;
+  background-color: #494978;
+  color: #fff;
 }
 
 .portfolio-entry h2 {
