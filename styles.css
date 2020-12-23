@@ -780,10 +780,11 @@ a .portfolio-entry:active {
   box-sizing: border-box;
   cursor: pointer;
   transition: all 0.2s;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
 }
 
 #filter-controls:hover,
-#filter-controls:active,
 #filter-controls:focus {
   border: 2px solid #494978;
   background-color: #494978;
