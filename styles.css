@@ -780,7 +780,9 @@ a .portfolio-entry:active {
   cursor: pointer;
 }
 
-#filter-controls {
+#filter-controls:hover,
+#filter-controls:active,
+#filter-controls:focus {
   border: 2px solid #494978;
   background-color: #494978;
   color: #fff;
