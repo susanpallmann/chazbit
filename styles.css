@@ -713,3 +713,7 @@ a .blog-entry:active {
 .blog-higher {
   display: flex;
 }
+
+.blog-entry h2 {
+  margin-bottom: 0;
+}
