@@ -723,6 +723,7 @@ a .portfolio-entry:active {
 
 .portfolio-entry h2 {
   margin-bottom: 0;
+  font-size: 2.25em;
 }
 
 .portfolio-entry p {
