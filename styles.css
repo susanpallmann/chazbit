@@ -696,23 +696,23 @@ footer .column.span3 {
   text-align: center;
 }
 
-.tag-web-dev, .filter-web-dev {
+.tag.tag-web-dev, .filter.filter-web-dev {
   background-color: #9000ff;
 }
 
-.tag-mobile, .filter-mobile {
+.tag.tag-mobile, .filter.filter-mobile {
   background-color: #EE00FF;
 }
 
-.tag-services, .filter-services {
+.tag.tag-services, .filter.filter-services {
   background-color: #FF0077;
 }
 
-.tag-consulting, .filter-consulting {
+.tag.tag-consulting, .filter.filter-consulting {
   background-color: #FF5E00;
 }
 
-.tag-data, .filter-data {
+.tag.tag-data, .filter.filter-data {
   background-color: #FF9900;
 }
 
