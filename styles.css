@@ -676,6 +676,7 @@ footer .column.span3 {
   font-size: 3em;
   padding: 0.33em;
   padding-top: 0.5em;
+  display: none;
 }
 
 .tag {
@@ -728,6 +729,7 @@ a .portfolio-entry:active {
 
 .portfolio-entry p {
   margin-bottom: 0;
+  font-size: 0.8em;
 }
 
 .portfolio-entry .image-container {
@@ -751,5 +753,13 @@ a .portfolio-entry:active {
   
   .portfolio-entry {
     flex-wrap: nowrap;
+  }
+  
+  .portfolio-entry p {
+    font-size: 1em;
+  }
+  
+  .large-caret {
+    display: block;
   }
 }
