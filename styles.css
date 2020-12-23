@@ -675,7 +675,7 @@ footer .column.span3 {
   color: #FF0099;
   font-size: 3em;
   padding: 0.33em;
-  padding-top: 1em;
+  padding-top: 0.5em;
 }
 
 .tag {
@@ -684,6 +684,8 @@ footer .column.span3 {
   color: #fff;
   font-weight: 600;
   padding: 0.3em 1em;
+  margin-top: 1em;
+  display: inline-block;
 }
 
 .tag-web-dev {
@@ -712,6 +714,7 @@ a .blog-entry:active {
 
 .blog-higher {
   display: flex;
+  justify-content: space-between;
 }
 
 .blog-entry h2 {
