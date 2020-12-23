@@ -1,0 +1,175 @@
+/* Portfolio-specific Styles */
+.portfolio-entry .image-container {
+  max-width: 300px;
+  min-width: 200px;
+  margin-right: 1em;
+}
+
+.portfolio-entry .image-container img {
+  border-radius: 10px;
+}
+
+.portfolio-entry {
+  display: flex;
+}
+
+.large-caret {
+  color: #FF0099;
+  font-size: 3em;
+  padding: 0.33em;
+  padding-top: 0.5em;
+  display: none;
+}
+
+.tag {
+  background-color: #ddd;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.3em 1em;
+  margin-top: 1em;
+  display: inline-block;
+  min-width: 80px;
+  text-align: center;
+}
+
+.tag.tag-web-dev, .filter.filter-web-dev {
+  background-color: #9000ff;
+}
+
+.tag.tag-mobile, .filter.filter-mobile {
+  background-color: #EE00FF;
+}
+
+.tag.tag-services, .filter.filter-services {
+  background-color: #FF0077;
+}
+
+.tag.tag-consulting, .filter.filter-consulting {
+  background-color: #FF5E00;
+}
+
+.tag.tag-data, .filter.filter-data {
+  background-color: #FF9900;
+}
+
+.portfolio-entry {
+  box-sizing: border-box;
+  padding: 1em 1em;
+  border-radius: 18px;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  transition: all 0.2s;
+  cursor: pointer;
+  margin-bottom: 1.5em;
+}
+
+a .portfolio-entry:hover, 
+a .portfolio-entry:focus, 
+a .portfolio-entry:active {
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio-lower {
+  display: flex;
+}
+
+.portfolio-higher {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#filter-container {
+  float: right;
+  margin-bottom: 1em;
+  width: 100%;
+  text-align: right;
+}
+
+.filter {
+  background-color: #ddd;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 1em;
+  display: inline-block;
+  min-width: 80px;
+  text-align: center;
+  padding: calc(0.3em + 2px) 1em;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: all 0.2s;
+  box-sizing: border-box;
+}
+
+.filter:hover,
+.filter:focus,
+.filter:active {
+  opacity: 1;
+}
+
+#filter-controls {
+  padding: 0.3em 1em;
+  border: 2px solid #494978;
+  border-radius: 50px;
+  color: #494978;
+  font-weight: 600;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  white-space: nowrap;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+#filter-controls:hover,
+#filter-controls:focus {
+  border: 2px solid #494978;
+  background-color: #494978;
+  color: #fff;
+}
+
+.portfolio-entry h2 {
+  margin-bottom: 0;
+  font-size: 2.25em;
+}
+
+.portfolio-entry p {
+  margin-bottom: 0;
+  font-size: 0.9em;
+}
+
+.portfolio-entry .image-container {
+  max-width: 100%;
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 1em;
+}
+
+.portfolio-entry {
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 850px) {
+  .portfolio-entry .image-container {
+    max-width: 250px;
+    width: 100%;
+    margin-right: 1em;
+    margin-bottom: 0;
+  }
+  
+  .portfolio-entry {
+    flex-wrap: nowrap;
+  }
+  
+  .portfolio-entry p {
+    font-size: 1em;
+  }
+  
+  .large-caret {
+    display: block;
+  }
+}
