@@ -655,3 +655,19 @@ footer .column.span3 {
 .container.copyright p a:focus {
   text-decoration: none;
 }
+
+/* Blog-specific Styles */
+.blog-entry img {
+  max-width: 200px;
+  border-radius: 10px;
+  margin-right: 1em;
+}
+
+.blog-entry {
+  display: flex;
+}
+
+.large-caret {
+  color: #FF0099;
+  font-size: 3em;
+}
