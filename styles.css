@@ -674,6 +674,8 @@ footer .column.span3 {
 .large-caret {
   color: #FF0099;
   font-size: 3em;
+  padding: 0.33em;
+  padding-top: 1em;
 }
 
 .tag {
@@ -703,4 +705,12 @@ a .blog-entry:hover,
 a .blog-entry:focus, 
 a .blog-entry:active {
   box-shadow: 0 16px 28px rgba(0, 0, 0, 0.16);
+}
+
+.blog-lower {
+  display: flex;
+}
+
+.blog-higher {
+  display: flex;
 }
