@@ -657,7 +657,7 @@ footer .column.span3 {
 }
 
 /* Blog-specific Styles */
-.blog-entry img {
+.blog-entry .image-container {
   max-width: 200px;
   border-radius: 10px;
   margin-right: 1em;
