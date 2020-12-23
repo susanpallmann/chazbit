@@ -720,3 +720,7 @@ a .blog-entry:active {
 .blog-entry h2 {
   margin-bottom: 0;
 }
+
+.blog-entry p {
+  margin-bottom: 0;
+}
