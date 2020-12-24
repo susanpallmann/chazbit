@@ -873,6 +873,12 @@ img.circle {
   text-style: normal;
 }
 
+.about-section .button-underline {
+  margin-left: 1em;
+  font-weight: 700;
+  color: #FF0099;
+}
+
 @media only screen and (min-width: 721) {
   .special-column {
     margin-top: 0 !important;
