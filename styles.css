@@ -856,7 +856,7 @@ img.circle {
 .about-categories {
   margin: auto;
   text-align: center;
-  max-height: 300px;
+  max-height: 250px;
   height: 100%;
   object-fit: cover;
 }
