@@ -872,3 +872,7 @@ img.circle {
   font-weight: 600;
   text-style: normal;
 }
+
+.special-column {
+  margin-top: 0 !important;
+}
