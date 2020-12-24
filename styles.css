@@ -885,6 +885,10 @@ img.circle {
   text-decoration: underline;
 }
 
+.special-column:nth-child(1) {
+  margin-top: 0 !important;
+}
+
 @media only screen and (min-width: 721px) {
   .special-column {
     margin-top: 0 !important;
