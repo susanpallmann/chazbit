@@ -879,6 +879,12 @@ img.circle {
   color: #FF0099;
 }
 
+.about-section .button-underline:hover,
+.about-section .button-underline:focus,
+.about-section .button-underline:active {
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 721) {
   .special-column {
     margin-top: 0 !important;
