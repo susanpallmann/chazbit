@@ -1077,3 +1077,7 @@ input[type="text"], textarea {
   box-sizing: border-box;
   display: block;
 }
+
+.remove-bottom-spacing {
+  margin-bottom: -4em;
+}
