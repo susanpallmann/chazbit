@@ -930,4 +930,5 @@ input[type="text"], textarea {
 
 .social-list a {
   transition: all 0.2s;
+  color: #9000FF;
 }
