@@ -1081,3 +1081,21 @@ input[type="text"], textarea {
 .remove-bottom-spacing {
   margin-bottom: -4em;
 }
+
+.closing .column:nth-child(1) {
+  order: 2;
+}
+
+.closing .column:nth-child(2) {
+  order: 1;
+}
+
+@media only screen and (min-width: 721px) {
+  .closing .column:nth-child(1) {
+    order: 1;
+  }
+
+  .closing .column:nth-child(2) {
+    order: 2;
+  }
+}
