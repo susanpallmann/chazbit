@@ -957,3 +957,51 @@ input[type="text"], textarea {
   border-bottom: 0;
   margin-bottom: 0;
 }
+
+/* Bottom Nav Buttons Styles */
+
+.column.span4.md.button-next {
+  order: 3;
+  width: 50%;
+  margin-top: 2em;
+}
+
+.column.span4.md.button-previous {
+  order: 2;
+  width: 50%;
+  margin-top: 2em;
+}
+
+.column.span4.md.top-link {
+  order: 1;
+}
+
+.top-link a {
+  display: inline-block;
+  text-decoration: underline;
+  width: 100%;
+  text-align: center;
+}
+
+.button-next .button-primary {
+  float: right;
+}
+
+@media only screen and (min-width: 721px) {
+  .column.span4.md.button-next {
+    order: 3;
+    width: 50%;
+    margin-top: 5em;
+  }
+
+  .column.span4.md.button-previous {
+    order: 1;
+    width: 33.33%;
+    margin-top: 5em;
+  }
+
+  .column.span4.md.top-link {
+    order: 2;
+    width: 33.33%;
+  }
+}
