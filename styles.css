@@ -1016,4 +1016,19 @@ input[type="text"], textarea {
   padding-left: 3em;
   box-sizing: border-box;
   position: relative;
+  transition: all 0.2s;
+  left: 0;
+  top: 0;
+  background-size: 100%;
+}
+
+.project-header-image:hover, .project-header-image:focus, .project-header-image:active {
+  background-position: -10px -10px;
+  left: 10px;
+  top: 20px;
+  background-size: 80%;
+}
+
+.project-header-image-container {
+  
 }
