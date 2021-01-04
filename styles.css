@@ -948,7 +948,7 @@ input[type="text"], textarea {
   font-weight: 500;
 }
 .blog-entry {
-  border-bottom: 1px solid #49497854;
+  border-bottom: 1px solid #CCCEDF;
   padding-bottom: 3em;
   margin-bottom: 2em;
 }
@@ -1063,4 +1063,8 @@ input[type="text"], textarea {
   background-image: url('images/Shape 3.png');
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.container.closing {
+  border-bottom: 2px solid #CCCEDF;
 }
