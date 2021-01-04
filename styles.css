@@ -919,3 +919,15 @@ input[type="text"], textarea {
   color: #494978;
   font-weight: 500;
 }
+
+.social-list {
+  padding-left: 0;
+}
+
+.social-list a:hover, .social-list a:active, .social-list a:focus {
+  color: #FF0099;
+}
+
+.social-list a {
+  transition: all 0.2s;
+}
