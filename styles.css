@@ -1068,3 +1068,12 @@ input[type="text"], textarea {
 .container.closing {
   border-bottom: 2px solid #CCCEDF;
 }
+
+.project-closing-image {
+  background-image: url('images/Shape 3.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 5em;
+  box-sizing: border-box;
+  display: block;
+}
