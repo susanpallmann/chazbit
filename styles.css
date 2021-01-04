@@ -1030,5 +1030,31 @@ input[type="text"], textarea {
 }
 
 .project-header-image-container {
-  
+  display: inline-block;
+  position: relative;
+}
+
+.project-header-image-container::after {
+  border-radius: 1em;
+  content: '';
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  positionL: ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 80%;
+  transition: all 0.2s;
+}
+
+.project-header-image-container {
+  position: relative;
+}
+
+.project-header-image-container:hover::after, .project-header-image-container:focus::after, .project-header-image-container:active:hover {
+  left: -1em;
+  top: -1em;
 }
