@@ -981,6 +981,7 @@ input[type="text"], textarea {
   text-decoration: underline;
   width: 100%;
   text-align: center;
+  margin-top: 2em;
 }
 
 .button-next .button-primary {
@@ -990,7 +991,7 @@ input[type="text"], textarea {
 @media only screen and (min-width: 721px) {
   .column.span4.md.button-next {
     order: 3;
-    width: 50%;
+    width: 33.33%;
     margin-top: 5em;
   }
 
