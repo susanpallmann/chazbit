@@ -1006,3 +1006,14 @@ input[type="text"], textarea {
     width: 33.33%;
   }
 }
+
+/* Project Page Styles */
+
+.project-header-image {
+  background-image: url('images/Shape 1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 3em;
+  box-sizing: border-box;
+  position: relative;
+}
