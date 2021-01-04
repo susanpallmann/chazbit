@@ -1058,3 +1058,9 @@ input[type="text"], textarea {
   left: -1em;
   top: -1em;
 }
+
+.project-closing-image {
+  background-image: url('images/Shape 3.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
