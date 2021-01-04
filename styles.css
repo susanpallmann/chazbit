@@ -71,6 +71,7 @@ img {
   margin-top: 1em;
   display: inline-block;
   transition: all 0.2s;
+  border: none;
 }
 
 .button-primary:hover, 
@@ -92,6 +93,7 @@ img {
   margin-top: 1em;
   display: inline-block;
   transition: all 0.2s;
+  border: none;
 }
 
 .button-secondary:hover, 
