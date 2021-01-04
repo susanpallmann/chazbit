@@ -896,3 +896,26 @@ img.circle {
     margin-top: 0 !important;
   }
 }
+
+/* Contact Page Styles */
+
+ul.social-list li {
+  display: inline-block;
+}
+
+ul.social-list li i {
+  font-size: 1.5em;
+  margin-right: 0.25em;
+}
+
+input[type="text"], textarea {
+  border: 2px solid #CCCEDF;
+  border-radius: 6px;
+  padding: 0.4em 0.8em;
+  width: 100%;
+  max-width: 350px;
+  font-family: Raleway, sans-serif;
+  font-size: 0.9em;
+  color: #494978;
+  font-weight: 500;
+}
