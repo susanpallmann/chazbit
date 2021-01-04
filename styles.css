@@ -932,3 +932,28 @@ input[type="text"], textarea {
   transition: all 0.2s;
   color: #9000FF;
 }
+
+/* Blog Page Styles */
+.blog-entry h2 {
+  margin-bottom: 0.1em;
+  font-size: 2.25em;
+}
+.author {
+  color: #FF0099;
+  font-weight: 700;
+}
+.authorship {
+  font-size: 0.9em;
+  margin-top: 1em;
+  font-weight: 500;
+}
+.blog-entry {
+  border-bottom: 1px solid #49497854;
+  padding-bottom: 3em;
+  margin-bottom: 2em;
+}
+.blog-entry:nth-last-child(1) {
+  padding-bottom: 0;
+  border-bottom: 0;
+  margin-bottom: 0;
+}
