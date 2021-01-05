@@ -1,5 +1,8 @@
 $(document).ready(function() {
-    
+    $('.testimonials').each(function() {
+        let slideNumber = $(this).find('.test-block').length();
+        console.log(slideNumber);
+    });
 });
 
 $(document).on('click', '#hamburger' , function() {
