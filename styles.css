@@ -1078,6 +1078,7 @@ input[type="text"], textarea {
 
 .container.closing {
   border-bottom: 2px solid #CCCEDF;
+  margin-bottom: 0;
 }
 
 .project-closing-image {
