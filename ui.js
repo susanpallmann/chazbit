@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('.testimonials').each(function() {
-        let slideNumber = $(this).find('.test-block').length();
+        let slideNumber = $(this).find('.test-block-container').children('.test-block').length;
         console.log(slideNumber);
     });
 });
