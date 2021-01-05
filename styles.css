@@ -982,6 +982,13 @@ input[type="text"], textarea {
   width: 100%;
   text-align: center;
   margin-top: 2em;
+  color: #FF0099;
+}
+
+.top-link a:hover,
+.top-link a:focus,
+.top-link a:active {
+  text-decoration: none;
 }
 
 .button-next .button-primary {
@@ -1022,7 +1029,9 @@ input[type="text"], textarea {
   background-size: 100%;
 }
 
-.project-header-image:hover, .project-header-image:focus, .project-header-image:active {
+.project-header-image:hover, 
+.project-header-image:focus, 
+.project-header-image:active {
   background-position: -10px -10px;
   left: 10px;
   top: 20px;
@@ -1054,7 +1063,9 @@ input[type="text"], textarea {
   position: relative;
 }
 
-.project-header-image-container:hover::after, .project-header-image-container:focus::after, .project-header-image-container:active:hover {
+.project-header-image-container:hover::after, 
+.project-header-image-container:focus::after, 
+.project-header-image-container:active:hover {
   left: -1em;
   top: -1em;
 }
